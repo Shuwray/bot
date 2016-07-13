@@ -100,7 +100,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/dannyelmccartney/source/master/lang/langIndex.json", function (json) {
+        $.get("https://raw.githubusercontent.com/Shuwray/bot/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
